@@ -12,9 +12,14 @@
     "gulp-size": "^3.0.0",
     "gulp.spritesmith": "^6.9.0",
     "natives": "^1.1.6",
+    "node-sass": "^4.14.1",
     "snoowrap": "^1.15.2"
   },
   "resolutions": {
     "natives": "1.1.3"
+  },
+  "scripts": {
+    "preshrinkwrap": "git checkout -- npm-shrinkwrap.json",
+    "postshrinkwrap": "git checkout -- npm-shrinkwrap.json"
   }
 }
